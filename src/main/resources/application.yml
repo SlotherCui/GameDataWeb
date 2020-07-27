@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1976120322w
+    url: jdbc:mysql://localhost:3307/game
+#    ?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true

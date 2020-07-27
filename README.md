@@ -15,6 +15,8 @@
 Scrapy+selenium+PhantomJS构建出动态页面爬虫程序，爬取了游民星空，Steam,3DM网站的游戏数据并进行星系和集成。https://github.com/SlotherCui/GameDataSpider
 #### 2.GameDataManagement： 
 采用Vue+ Elementui 搭建出游戏数据web前端展示界面，界面美观操作简洁 https://github.com/SlotherCui/GameDataManagement
-#### 3.GameDataWeb： 采用Spring-boot+ mysql 
-搭建游戏数据管理后端程序，可以实现多种字段的组合检索 https://github.com/SlotherCui/GameDataWeb
+#### 3.GameDataWeb： 
+采用Spring-boot+ mysql搭建游戏数据管理后端程序，可以实现多种字段的组合检索 https://github.com/SlotherCui/GameDataWeb
 
+__我敢保证只要掌握了本项目，至少对于山东大学软件学院软件工程专业的所有课程设计/实验都都可以轻松快速完成，A+在想你召唤（剩下全靠您实验报告中的吹B）。__
+__本项目包含了简单的Spring-boot后端框架的使用，Vue前端Web框架的使用，MongoDB/Mysql数据库的使用，以及通过python构建爬虫轻松祝您成为技术小佬__

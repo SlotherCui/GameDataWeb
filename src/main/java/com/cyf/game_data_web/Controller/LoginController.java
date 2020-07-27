@@ -2,7 +2,7 @@ package com.cyf.game_data_web.Controller;
 
 import com.cyf.game_data_web.VO.ResultVO;
 import com.cyf.game_data_web.VO.ResultVOUtil;
-import com.cyf.game_data_web.request.LoginRequest;
+import com.cyf.game_data_web.Bean.LoginBean;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -11,7 +11,7 @@ public class LoginController {
 
     @PostMapping(value = "/login1")//, produces="application/json;charset=utf-8"
     @ResponseBody
-    public ResultVO<String> Login(@RequestBody LoginRequest password){
+    public ResultVO<String> Login(@RequestBody LoginBean password){
         System.out.println(password);
         if (keyword.equals(password.getPassword())){
             return ResultVOUtil.success();

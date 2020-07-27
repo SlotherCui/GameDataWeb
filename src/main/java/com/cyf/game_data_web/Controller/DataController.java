@@ -15,13 +15,14 @@ import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+// 用于测试简单的数据下载
 @Controller
 public class DataController {
 
     @Autowired
     private GameSearchRepository gameSearchRepository;
 
-    @GetMapping("/Price/GetData")
+    @GetMapping("/GetData")
     public ResponseEntity<byte[]> getDataFile() throws Exception {
         // 文件名
         String filename = "download.csv";  // 修改
